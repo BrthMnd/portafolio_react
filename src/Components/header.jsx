@@ -8,7 +8,7 @@ export function Header() {
     <Navbar
       collapseOnSelect
       expand="lg"
-      className="bg-body-tertiary"
+      className="bg-body-tertiary sticky-top"
       bg="dark"
       data-bs-theme="dark"
     >
