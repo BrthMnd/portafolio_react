@@ -20,8 +20,10 @@ export function Header() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto"></Nav>
           <Nav>
-            <Nav.Link href="#deets">Home</Nav.Link>
-            <Nav.Link href="#memes">Dank memes</Nav.Link>
+            <Nav.Link href="#deets">HOME</Nav.Link>
+            <Nav.Link href="#memes">ABOUT ME</Nav.Link>
+            <Nav.Link href="#memes">PROJECTS</Nav.Link>
+            <Nav.Link href="#memes">CONTACT</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

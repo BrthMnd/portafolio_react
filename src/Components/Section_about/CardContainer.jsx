@@ -1,6 +1,6 @@
 export function CardContainer() {
   return (
-    <div id="card_container">
+    <div id="card_container" data-aos="fade-right">
       <div className="card">
         <box-icon name="network-chart" size="100px"></box-icon>
         <h4>Team Work</h4>

@@ -10,26 +10,26 @@ import {
 
 const data = [
   {
-    subject: "Math",
+    subject: "React",
     A: 120,
     B: 110,
     fullMark: 150,
   },
   {
-    subject: "Chinese",
+    subject: "UI and UX",
     A: 92,
     B: 21,
     fullMark: 150,
   },
   {
-    subject: "English",
-    A: 86,
+    subject: "Nodejs",
+    A: 100,
     B: 130,
     fullMark: 150,
   },
   {
-    subject: "Geography",
-    A: 99,
+    subject: "Ingles",
+    A: 69,
     B: 100,
     fullMark: 150,
   },
@@ -60,7 +60,7 @@ export function Grafic() {
             dataKey="A"
             stroke="#8884d8"
             fill="#8884d8"
-            fillOpacity={0.6}
+            fillOpacity={0.5}
           />
         </RadarChart>
       </ResponsiveContainer>

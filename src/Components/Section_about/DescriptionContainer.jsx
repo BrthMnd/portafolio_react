@@ -14,7 +14,7 @@ export function DescriptionContainer() {
           CV
         </Button>
       </div>
-      <div id="table__data">
+      <div id="table__data" data-aos="fade-down-left" data-aos-duration="1500">
         <Grafic />
       </div>
     </div>

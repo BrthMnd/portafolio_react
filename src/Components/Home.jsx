@@ -2,13 +2,15 @@
 import "../assets/style/home.css";
 import { CardContainer } from "./Section_about/CardContainer";
 import { DescriptionContainer } from "./Section_about/DescriptionContainer";
-// import { Grafic } from "./Section_about/ReChar";
-import "../assets/js/main.js";
+import { BoxComponent } from "./Section_projects/BoxComponents";
+import { ContactComponents } from "./Section_contact_me/index";
+import { FooterComponets } from "./Section_footer/FooterComponets";
 export function Home() {
   return (
     <main>
+      {/* Home 🏠 */}
       <section id="section__home">
-        <div id="presentacion">
+        <div id="presentacion" data-aos="zoom-out-up" data-aos-duration="2000">
           <h1>
             ¡Hello! I'm <span>Brandon</span>
           </h1>
@@ -17,14 +19,22 @@ export function Home() {
           </h3>
         </div>
       </section>
-      <section id="section__about">
+
+      {/* about me 🤵 */}
+      <section id="section__about" data-aos="fade-right">
         <h1>About me</h1>
         <CardContainer />
         <DescriptionContainer />
       </section>
-      <section id="section__projects">
-        <h1>Hola</h1>
-      </section>
+
+      {/* Projets ⚠️ */}
+      <BoxComponent />
+
+      {/* Contact me 👎 */}
+
+      <ContactComponents />
+      {/* Footer 👎 */}
+      <FooterComponets />
     </main>
   );
 }
