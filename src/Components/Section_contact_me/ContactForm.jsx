@@ -17,15 +17,17 @@ export function FormEmail() {
           <FloatingLabel controlId="floatingTextarea2" label="Comments">
             <Form.Control
               as="textarea"
-              placeholder="Leave a comment here"
+              placeholder="Hello world"
               style={{ height: "100px" }}
             />
           </FloatingLabel>
         </>
         <hr />
-        <Button variant="dark" type="submit">
-          Submit
-        </Button>
+        <div>
+          <Button variant="dark" type="submit">
+            Submit
+          </Button>
+        </div>
       </Form>
     </div>
   );

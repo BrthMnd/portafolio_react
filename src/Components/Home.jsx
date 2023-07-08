@@ -1,10 +1,9 @@
 /* eslint-disable react/no-unescaped-entities */
 import "../assets/style/home.css";
-import { CardContainer } from "./Section_about/CardContainer";
-import { DescriptionContainer } from "./Section_about/DescriptionContainer";
 import { BoxComponent } from "./Section_projects/BoxComponents";
 import { ContactComponents } from "./Section_contact_me/index";
 import { FooterComponets } from "./Section_footer/FooterComponets";
+import { AboutComponent } from "./Section_about/index";
 export function Home() {
   return (
     <main>
@@ -21,11 +20,7 @@ export function Home() {
       </section>
 
       {/* about me 🤵 */}
-      <section id="section__about" data-aos="fade-right">
-        <h1>About me</h1>
-        <CardContainer />
-        <DescriptionContainer />
-      </section>
+      <AboutComponent />
 
       {/* Projets ⚠️ */}
       <BoxComponent />

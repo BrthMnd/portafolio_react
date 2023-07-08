@@ -209,6 +209,54 @@
 }
 
 #section__footer {
-    height: 100vh;
+    height: 80vh;
     background-color: rgb(0, 0, 0);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 200px;
+    align-items: center;
+
+    & #Logo_diseno {
+        & #logo {
+            width: 300px;
+        }
+    }
+
+    & #Icons_copy {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 200px;
+
+        & #copyrigth {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        & #icons {
+            display: flex;
+            align-items: center;
+
+            justify-content: space-between;
+            width: 100%;
+
+
+            &,
+            i {
+                font-size: 50px;
+                padding: 20px;
+            }
+        }
+
+    }
+
+    & #btn_submit {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }

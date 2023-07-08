@@ -11,7 +11,7 @@ import {
 const data = [
   {
     subject: "React",
-    A: 120,
+    A: 100,
     B: 110,
     fullMark: 150,
   },
@@ -34,14 +34,14 @@ const data = [
     fullMark: 150,
   },
   {
-    subject: "Physics",
-    A: 85,
+    subject: "Redux",
+    A: 65,
     B: 90,
     fullMark: 150,
   },
   {
-    subject: "History",
-    A: 65,
+    subject: "React-Router",
+    A: 85,
     B: 85,
     fullMark: 150,
   },
