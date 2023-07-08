@@ -217,6 +217,7 @@
     padding-top: 200px;
     align-items: center;
 
+
     & #Logo_diseno {
         & #logo {
             width: 300px;
@@ -259,4 +260,23 @@
         justify-content: center;
         align-items: center;
     }
+}
+
+.scroll-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    opacity: 0;
+    z-index: 999;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+.scroll-button.show {
+    opacity: 1;
 }

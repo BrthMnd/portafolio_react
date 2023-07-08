@@ -4,6 +4,7 @@ import { BoxComponent } from "./Section_projects/BoxComponents";
 import { ContactComponents } from "./Section_contact_me/index";
 import { FooterComponets } from "./Section_footer/FooterComponets";
 import { AboutComponent } from "./Section_about/index";
+import { ScrollButton } from "../boton";
 export function Home() {
   return (
     <main>
@@ -18,6 +19,8 @@ export function Home() {
           </h3>
         </div>
       </section>
+      {/* Prueba */}
+      <ScrollButton />
 
       {/* about me 🤵 */}
       <AboutComponent />
@@ -26,8 +29,8 @@ export function Home() {
       <BoxComponent />
 
       {/* Contact me 👎 */}
-
       <ContactComponents />
+
       {/* Footer 👎 */}
       <FooterComponets />
     </main>
