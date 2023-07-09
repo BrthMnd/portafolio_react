@@ -17,7 +17,7 @@ const data = [
   },
   {
     subject: "UI and UX",
-    A: 92,
+    A: 82,
     B: 21,
     fullMark: 150,
   },

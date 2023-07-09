@@ -1,24 +1,12 @@
-// import { Button } from "react-bootstrap";
-// import { AlertSwal } from "../../assets/Js/SweetAlert2";
-// import { useEffect } from "react";
-// import { Alert } from "bootstrap";
-import crud from "../../assets/img/crud.png";
-import tasktierlist from "../../assets/img/tasktierlist.png";
-import portafolio from "../../assets/img/Portafolio.png";
-
-const imagenes = [
-  {
-    imagen: crud,
-    url: "http://",
-  },
-  {
-    imagen: tasktierlist,
-  },
-  {
-    imagen: portafolio,
-  },
-];
+import { AlertSwal } from "../../assets/Js/SweetAlert2";
+import { imagenes } from "./Object_IMG";
+// Component
 export function BoxComponent() {
+  const handledClick = (imagen) => {
+    console.log(imagen);
+    AlertSwal(imagen);
+  };
+
   return (
     <section id="section__projects">
       <h1>Projects</h1>
@@ -31,7 +19,7 @@ export function BoxComponent() {
               data-aos="flip-up"
             >
               <img src={element.imagen} alt="" />
-              <div className="ventana">
+              <div className="ventana" onClick={() => handledClick(element)}>
                 <i className="fa-solid fa-magnifying-glass-arrow-right"></i>
               </div>
             </div>

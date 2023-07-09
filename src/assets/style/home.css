@@ -61,6 +61,7 @@
     align-items: center;
     height: var(--max);
     flex-direction: column;
+    flex-wrap: wrap;
     padding-bottom: 100px;
     background: linear-gradient(rgb(255, 255, 255), rgb(194, 194, 194));
 
@@ -74,6 +75,7 @@
         display: flex;
         justify-content: space-evenly;
         width: 100%;
+        flex-wrap: wrap;
 
         & .card {
             display: flex;
@@ -81,19 +83,30 @@
             align-items: center;
             width: 200px;
             height: 200px;
+            transition: 1s;
+
+            &:hover {
+                transform: scale(1.1);
+                transition: 1s;
+            }
+
+
 
 
 
         }
     }
 
-
-
     & #description__container {
         display: flex;
         justify-content: center;
         align-items: center;
         margin-top: 100px;
+        flex-wrap: wrap;
+        /* max-width: 480px; */
+
+        text-align: center;
+
 
         & #text__description {
             display: flex;
@@ -106,8 +119,8 @@
 
 
         & #table__data {
-            width: 400px;
-            height: 300px;
+            max-width: 480px;
+            /* width: 100%; */
         }
 
     }
@@ -166,6 +179,7 @@
                 i {
                     color: rgba(255, 255, 255, 0);
                     font-size: 50px;
+
                 }
 
                 &:hover {
@@ -204,7 +218,15 @@
         background-color: rgba(255, 255, 255, 0.5);
         padding: 20px;
         border-radius: 20px;
-        width: 600px;
+        max-width: 600px;
+        width: 100%
+    }
+
+    & #btn_submit {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 
@@ -216,6 +238,7 @@
     justify-content: space-around;
     padding-top: 200px;
     align-items: center;
+    flex-wrap: wrap;
 
 
     & #Logo_diseno {
@@ -254,12 +277,7 @@
 
     }
 
-    & #btn_submit {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+
 }
 
 .scroll-button {
@@ -279,4 +297,22 @@
 
 .scroll-button.show {
     opacity: 1;
+}
+
+/* responsive  */
+
+@media (max-width: 780px) {
+    #container__form {
+        max-width: 400px;
+    }
+
+    #table__data {
+        max-width: 280px;
+    }
+}
+
+@media (max-width: 480px) {
+    #container__form {
+        max-width: 200px;
+    }
 }
