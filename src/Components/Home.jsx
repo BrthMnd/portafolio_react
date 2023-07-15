@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-import "../assets/style/home.css";
+import "../assets/style/home.scss";
 import { BoxComponent } from "./Section_projects/BoxComponents";
 import { ContactComponents } from "./Section_contact_me/index";
 import { FooterComponets } from "./Section_footer/FooterComponets";
