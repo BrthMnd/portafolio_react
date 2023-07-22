@@ -7,7 +7,7 @@ function App() {
     <div className="Routes">
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/portafolio_react" element={<Home />} />
       </Routes>
     </div>
   );

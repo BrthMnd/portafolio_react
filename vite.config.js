@@ -5,4 +5,17 @@ import react from "@vitejs/plugin-react-swc";
 export default defineConfig({
   plugins: [react()],
   base: "/portafolio_react/",
+  build: {
+    rollupOptions: {
+      output: {
+        // Especifica manualmente cómo dividir los módulos en fragmentos
+        manualChunks(id) {
+          if (id.includes("node_modules")) {
+            // Agrupa los módulos de node_modules en un solo fragmento
+            return "vendor";
+          }
+        },
+      },
+    },
+  },
 });
