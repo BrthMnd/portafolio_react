@@ -1,5 +1,5 @@
 import crud from "../../assets/img/crud.png";
-import tasktierlist from "../../assets/img/tasktierlist.png";
+import tasktierlist from "../../assets/img/TaskTierList.png";
 import portafolio from "../../assets/img/Portafolio.png";
 // Object 📙 <-
 export const imagenes = [
