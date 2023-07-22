@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import { Grafic } from "./ReChar";
-import { Button } from "react-bootstrap";
+// import { Button } from "react-bootstrap";
 export function DescriptionContainer() {
   return (
     <div id="description__container">
@@ -10,9 +10,9 @@ export function DescriptionContainer() {
           I'm a <span>developer</span> and I'm passionate about learning new
           technologies.
         </p>
-        <Button variant="dark" onClick={() => console.log("Dark")}>
+        <a href="/CV-BRANDONQUINTERO.pdf" id="button_cv">
           CV
-        </Button>
+        </a>
       </div>
       <div id="table__data" data-aos="fade-down-left" data-aos-duration="1500">
         <Grafic />

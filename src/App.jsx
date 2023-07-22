@@ -1,7 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import { Header } from "./Components/header";
 import { Home } from "./Components/Home";
-
 function App() {
   return (
     <div className="Routes">
@@ -12,5 +11,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
