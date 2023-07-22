@@ -28,10 +28,10 @@ export function Home() {
       {/* Projets ⚠️ */}
       <BoxComponent />
 
-      {/* Contact me 👎 */}
+      {/* Contact me 🌵 */}
       <ContactComponents />
 
-      {/* Footer 👎 */}
+      {/* Footer 🅱️ */}
       <FooterComponets />
     </main>
   );
