@@ -1,4 +1,3 @@
-// import { PureComponent } from "react";
 import {
   Radar,
   RadarChart,
@@ -11,7 +10,7 @@ import {
 const data = [
   {
     subject: "React",
-    A: 100,
+    A: 101,
     B: 110,
     fullMark: 150,
   },
@@ -46,7 +45,6 @@ const data = [
     fullMark: 150,
   },
 ];
-
 export function Grafic() {
   return (
     <>
