@@ -1,7 +1,7 @@
 import crud from "../../assets/img/crud.png";
-import tasktierlist from "./assets/img/TaskTierList.png";
+import tasktierlist from "../../assets/img/TaskTierlist.png";
 import portafolio from "../../assets/img/Portafolio.png";
-// Object 📙 <-
+
 export const imagenes = [
   {
     imagen: crud,
